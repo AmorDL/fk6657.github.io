@@ -23,8 +23,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
  var c_lTabs=5;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "直播间互喷";
- c_rgszSh[1] = "喷玩机器";
+ c_rgszSh[0] = "喷玩机器";
+ c_rgszSh[1] = "直播间互喷";
  c_rgszSh[2] = "其他群魔乱舞";
  c_rgszSh[3] = "喷选手";
  c_rgszSh[4] = "+1";
@@ -57,7 +57,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -305,11 +305,11 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>直播间互喷</x:Name>
+    <x:Name>喷玩机器</x:Name>
     <x:WorksheetSource HRef="index.files/sheet001.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
-    <x:Name>喷玩机器</x:Name>
+    <x:Name>直播间互喷</x:Name>
     <x:WorksheetSource HRef="index.files/sheet002.htm"/>
    </x:ExcelWorksheet>
    <x:ExcelWorksheet>
@@ -330,7 +330,6 @@ function fnSetActiveSheet(iSh)
   <x:WindowWidth>32767</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
-  <x:ActiveSheet>1</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -338,7 +337,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="index.files/sheet002.htm" name="frSheet">
+ <frame src="index.files/sheet001.htm" name="frSheet">
  <frame src="index.files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
