@@ -71,9 +71,7 @@ ruby
 	mso-font-charset:0;}
 td
 	{mso-style-parent:style0;
-	padding-top:1px;
-	padding-right:1px;
-	padding-left:1px;
+	padding:0px;
 	mso-ignore:padding;
 	color:black;
 	font-size:11.0pt;
