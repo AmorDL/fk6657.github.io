@@ -92,16 +92,16 @@ a:visited
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;}
-.font21
+	font-family:"Malgun Gothic Semilight", sans-serif;
+	mso-font-charset:134;}
+.font22
 	{color:black;
 	font-size:16.0pt;
 	font-weight:400;
 	font-style:normal;
 	text-decoration:none;
-	font-family:"Malgun Gothic Semilight", sans-serif;
-	mso-font-charset:134;}
+	font-family:"Segoe UI Symbol", sans-serif;
+	mso-font-charset:0;}
 td
 	{mso-style-parent:style0;
 	padding:0px;
@@ -361,4 +361,5 @@ td
 	font-family:宋体;
 	mso-generic-font-family:auto;
 	mso-font-charset:134;
-	vertical-align:middle;}
+	vertical-align:middle;
+	white-space:normal;}
